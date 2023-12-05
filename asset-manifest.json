@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/petrok/static/css/main.4f92fea6.css",
+    "main.js": "/petrok/static/js/main.81261831.js",
+    "static/js/787.3cdc38eb.chunk.js": "/petrok/static/js/787.3cdc38eb.chunk.js",
+    "index.html": "/petrok/index.html",
+    "main.4f92fea6.css.map": "/petrok/static/css/main.4f92fea6.css.map",
+    "main.81261831.js.map": "/petrok/static/js/main.81261831.js.map",
+    "787.3cdc38eb.chunk.js.map": "/petrok/static/js/787.3cdc38eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f92fea6.css",
+    "static/js/main.81261831.js"
+  ]
+}
