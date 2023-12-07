@@ -3,22 +3,22 @@
   max-width: 800px;
   margin-left: 20px;
 }
-  
-  .products-heading {
-    font-size: 1.5rem;
-    margin-right: 80%
-  }
 
-  .products {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    max-height: 400px; /* Adjust the height as needed */
-    overflow-y: auto;
-    margin-left: 20px;
-    background-color: #a9bfdf; /* Background color for the box */
+.products-heading {
+  font-size: 1.5rem;
+  margin-right: 80%;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 400px; /* Adjust the height as needed */
+  overflow-y: auto;
+  margin-left: 20px;
+  background-color: #a9bfdf; /* Background color for the box */
   max-height: 400px; /* Adjust the maximum height as needed */
   overflow-y: auto; /* Enable vertical scrolling if content exceeds the container height */
   padding: 20px; /* Optional padding for the container */
-  WIDTH: 163%
-  }
+  width: 100%; /* Set the width to 100% to ensure it takes the full available width */
+}
