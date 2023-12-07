@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/petrok/static/css/main.0b94d94c.css",
-    "main.js": "/petrok/static/js/main.22672a89.js",
+    "main.js": "/petrok/static/js/main.16ab276f.js",
     "static/js/787.3cdc38eb.chunk.js": "/petrok/static/js/787.3cdc38eb.chunk.js",
     "index.html": "/petrok/index.html",
     "main.0b94d94c.css.map": "/petrok/static/css/main.0b94d94c.css.map",
-    "main.22672a89.js.map": "/petrok/static/js/main.22672a89.js.map",
+    "main.16ab276f.js.map": "/petrok/static/js/main.16ab276f.js.map",
     "787.3cdc38eb.chunk.js.map": "/petrok/static/js/787.3cdc38eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b94d94c.css",
-    "static/js/main.22672a89.js"
+    "static/js/main.16ab276f.js"
   ]
 }
