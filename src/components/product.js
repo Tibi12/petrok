@@ -2,9 +2,12 @@
 import React from 'react';
 
 const Product = ({ product }) => {
+  // const imageUrl = process.env.NODE_ENV === 'production'
+  //   ? `/${process.env.REACT_APP_REPOSITORY_NAME}/${product.imageUrl}`
+  //   : process.env.PUBLIC_URL + product.imageUrl;
   const imageUrl = process.env.NODE_ENV === 'production'
-    ? `/${process.env.REACT_APP_REPOSITORY_NAME}/${product.imageUrl}`
-    : process.env.PUBLIC_URL + product.imageUrl;
+  ? `${process.env.PUBLIC_URL}/${product.imageUrl}`
+  : process.env.PUBLIC_URL + product.imageUrl;
   console.log('Constructed imageUrl:', imageUrl);
   return (
     <div className="product">
