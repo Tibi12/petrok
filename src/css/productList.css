@@ -1,6 +1,6 @@
-/* src/Product.css */
+/* Product.css */
 .product-list {
-  max-width: 800px;
+  max-width: 90%;
   margin-left: 20px;
 }
 
@@ -13,12 +13,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  max-height: 400px; /* Adjust the height as needed */
+  max-height: 400px;
   overflow-y: auto;
   margin-left: 20px;
-  background-color: #a9bfdf; /* Background color for the box */
-  max-height: 400px; /* Adjust the maximum height as needed */
-  overflow-y: auto; /* Enable vertical scrolling if content exceeds the container height */
-  padding: 20px; /* Optional padding for the container */
-  width: 100%; /* Set the width to 100% to ensure it takes the full available width */
+  background-color: #ecf0f1; /* Light Gray */
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 20px;
+  width: 100%;
 }

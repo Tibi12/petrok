@@ -1,0 +1,16 @@
+/* AboutFooter.css */
+.about-footer {
+    background-color: #34495e; /* Darker Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about-footer p {
+    font-size: 1rem;
+  }

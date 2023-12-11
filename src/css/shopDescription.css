@@ -1,26 +1,48 @@
-/* src/ShopDescription.css */
-.shop-description {
-  background-color: #f9f9f9;
-  padding: 2rem;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 5px;
+/* ShopDescription.css */
+.full-width-description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #89e1f7; /* Light Gray */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  max-width: 800px; /* Adjust the maximum width as needed to match .product-list */
+  padding: 2rem;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
-.shop-description-content {
-  padding: 1rem;
+.description-content {
+  width: 50%;
+  text-align: left;
 }
 
-.shop-description h2 {
+.description-content h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
 
-.shop-description p {
+.description-content p {
   font-size: 1.2rem;
   color: #333;
 }
-  
+
+.changing-images {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.changing-images img {
+  width: 300px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+  object-fit: cover;
+  /* Add transition or animation for image change if needed */
+}
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333; /* Set the font color */
+  font-family: 'Arial', sans-serif; /* Set the desired font family */
+  margin-bottom: 5rem;
+}
