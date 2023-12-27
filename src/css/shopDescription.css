@@ -46,3 +46,59 @@
   font-family: 'Arial', sans-serif; /* Set the desired font family */
   margin-bottom: 5rem;
 }
+
+@media (max-width: 767px) {
+  .full-width-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #89e1f7; /* Light Gray */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    min-height: 100vh;
+  }
+  
+  .description-content {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .description-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description-content p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .changing-images {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .changing-images img {
+    max-width: 100%; /* Ensure images don't overflow on smaller screens */
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+}
+
+/* Tablet Styles for ShopDescription */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .full-width-description {
+    padding: 1.5rem;
+  }
+}
+
+/* Desktop Styles for ShopDescription */
+@media (min-width: 1024px) {
+  .full-width-description {
+    padding: 2rem;
+  }
+}
