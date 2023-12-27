@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/petrok/static/css/main.e6be047d.css",
-    "main.js": "/petrok/static/js/main.91a83f63.js",
-    "static/js/787.3cdc38eb.chunk.js": "/petrok/static/js/787.3cdc38eb.chunk.js",
-    "index.html": "/petrok/index.html",
-    "main.e6be047d.css.map": "/petrok/static/css/main.e6be047d.css.map",
-    "main.91a83f63.js.map": "/petrok/static/js/main.91a83f63.js.map",
-    "787.3cdc38eb.chunk.js.map": "/petrok/static/js/787.3cdc38eb.chunk.js.map"
+    "main.css": "/static/css/main.e6be047d.css",
+    "main.js": "/static/js/main.88eebc5c.js",
+    "static/js/787.3cdc38eb.chunk.js": "/static/js/787.3cdc38eb.chunk.js",
+    "index.html": "/index.html",
+    "main.e6be047d.css.map": "/static/css/main.e6be047d.css.map",
+    "main.88eebc5c.js.map": "/static/js/main.88eebc5c.js.map",
+    "787.3cdc38eb.chunk.js.map": "/static/js/787.3cdc38eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6be047d.css",
-    "static/js/main.91a83f63.js"
+    "static/js/main.88eebc5c.js"
   ]
 }
