@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import '../css/shopDescription.css';
 
 const ShopDescription = () => {
-  const images = ['/petrok/images/bag1.png', '/petrok/images/bag2.png', '/petrok/images/bag3.png'];
+  const images = ['/images/bag1.png', '/images/bag2.png', '/images/bag3.png'];
   const [currentImage, setCurrentImage] = useState(0);
 
   useEffect(() => {
