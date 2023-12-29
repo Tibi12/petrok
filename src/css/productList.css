@@ -6,7 +6,7 @@
 
 .products-heading {
   font-size: 1.5rem;
-  margin-right: 80%;
+  margin-right: 60%;
 }
 
 .products {
@@ -19,6 +19,28 @@
   background-color: #ecf0f1; /* Light Gray */
   max-height: 400px;
   overflow-y: auto;
-  padding: 20px;
+  /* padding: 20px; */
   width: 100%;
+}
+
+@media (max-width: 767px) {
+/* Product.css */
+.product-list {
+  max-width: 90%; /* Adjusted for better responsiveness */
+  margin-left: 0; /* Reset margin for better alignment */
+}
+
+.products-heading {
+  font-size: 1.5rem;
+  margin-right: 60%; /* Reset margin for better alignment */
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-y: auto; /* Prevent content overflow */
+  padding: 10px; /* Adjusted for better spacing */
+  background-color: #ecf0f1; /* Light Gray */
+}
 }
